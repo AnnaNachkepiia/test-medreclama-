@@ -1,0 +1,8 @@
+.benefits__company-text{
+    margin: 0 15px;
+}
+@media screen and (max-width: 580px) {
+    .benefits__company-text{
+word-wrap: break-word;
+}
+}

@@ -1,0 +1,9 @@
+.benefits__list-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEFF2;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 15px 15px 2px;
+    border-radius: 5px;
+}

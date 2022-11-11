@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test-medreklama</title>
+    <link rel="stylesheet" href="./index.css" />
+    <!-- <script src="./scripts/script.js"></script> -->
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/jquery.maskedinput.js"></script>
+  </head>
+
+  <body class="page">
+    <main class="content">
+      <section class="special">
+        <div class="special__container">
+          <img
+            class="special__img"
+            src="./images/img1.jpg"
+            alt="Белоснежная улыбка"
+          />
+          <div class="special__description">
+            <h1 class="special__title">Акция</h1>
+            <p class="special__subtitle">
+              Профессиональная гигиена зубов + отбеливание системой Opalescence
+              всего за<span class="special__description-bold"> 9900 руб.</span>
+            </p>
+            <p class="special__duration-text">
+              Срок действия акции с
+              <span class="special__duration-bold">01.12.2013</span> г. до
+              <span class="special__duration-bold">01.01.2014</span> г.
+            </p>
+            <a class="special__link" href="#">
+              <div class="special__link special__link_type_rectangle">
+                <p class="special__link-text">
+                  Сделайте свою улыбку неотразимой и привлекательной
+                </p>
+              </div>
+              <img
+                class="special__link special__link_type_triangle"
+                src="./images/u17.svg"
+                alt="треугольная кнопка"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="special__contact-container">
+          <div class="special__contact-title-box">
+            <h3 class="special__contact-title">Участвовать в акции</h3>
+          </div>
+          <form class="special__form">
+            <p class="special__contact-text">
+              Для того чтобы принять участие в акции позвоните нам: (812)
+              123-45-67 или оставьте ваш телефон:
+            </p>
+            <div class="special__input-box">
+              <input
+                class="special__input special__input_type_name"
+                type="text"
+                id="name"
+                required="required"
+              />
+              <label for="name" class="special__input-label">Имя Фамилия</label>
+            </div>
+            <div class="special__input-box">
+              <input
+                class="special__input special__input_type_number"
+                type="text"
+                id="phone"
+                required="required"
+                value=""
+              />
+              <label for="phone" class="special__input-label"
+                >Контактный телефон</label
+              >
+            </div>
+            <script>
+              $(function () {
+                $("#phone").mask("+7(999) 999-9999");
+              });
+            </script>
+            <button class="special__submit-form">
+              <p class="special__submit-text">Отправить заявку</p>
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="benefits__box">
+          <h3 class="benefits__title benefits__title_type_opalescence">
+            Преимущества Opalescence
+          </h3>
+          <ul class="benefits__list benefits__list_type_opalescence">
+            <li class="benefits__item benefits__item_type_opalescence">
+              Безопасность
+            </li>
+            <li class="benefits__item benefits__item_type_opalescence">
+              Нейтральный рН геля не изменяет структуру зуба
+            </li>
+            <li class="benefits__item benefits__item_type_opalescence">
+              Вода в составе геля не допускает обезвоживания зуба
+            </li>
+            <li class="benefits__item benefits__item_type_opalescence">
+              Защита десен
+            </li>
+            <li class="benefits__item benefits__item_type_opalescence">
+              Содержание фторидов уменьшает риск возникновения кариеса
+            </li>
+            <li class="benefits__item benefits__item_type_opalescence">
+              Быстрый и стойкий результат
+            </li>
+          </ul>
+          <h3 class="benefits__title benefits__title_type_professional">
+            Наши специалисты
+          </h3>
+          <div class="benefits__galery">
+            <button
+              class="benefits__galery-button benefits__galery-button_type_back"
+              type="button"
+            >
+              <img
+                class="benefits__galery-icon benefits__galery-icon_type_left"
+                src="./images/Next-icon-lkjn7.svg"
+                alt="далее"
+              />
+            </button>
+            <!-- <div class="benefits__galery-slider"> -->
+            <div class="benefits__galery-photo-box">
+              <img
+                class="benefits__galery-photo"
+                src="https://p1.zoon.ru/4/4/5de4d496e63e862bfe105ab6_5de73360a2751.jpg"
+                alt="фото"
+              />
+              <p class="benefits__galery-text">Иванов Иван Иванович</p>
+            </div>
+            <!-- <div class="benefits__galery-photo-box">
+              <img
+                class="benefits__galery-photo"
+                src="https://i1.photo.2gis.com/images/branch/52/7318349440435611_352f.jpg"
+                alt="фото"
+              />
+              <p class="benefits__galery-text">Петров Петр Петрович</p>
+            </div> -->
+
+            <button
+              class="benefits__galery-button benefits__galery-button_type_next"
+              type="button"
+              onclick="plusSlider(1)"
+            >
+              <img
+                class="benefits__galery-icon benefits__galery-icon_type_right"
+                src="./images/Next-icon-lkjn7.svg"
+                alt="далее"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="benefits__box">
+          <h3 class="benefits__title benefits__title_type_cost">
+            В стоимость входит
+          </h3>
+          <div class="benefits__list-container">
+            <ul class="benefits__list benefits__list_type_cost">
+              <li class="benefits__item benefits__item_type_cost">
+                Профессиональная чистка зубов
+              </li>
+              <li class="benefits__item benefits__item_type_cost">
+                Отбеливание зубов системой Opalescence
+              </li>
+            </ul>
+          </div>
+          <h3 class="benefits__title benefits__title_type_reviews">
+            Отзывы о чистке зубов
+          </h3>
+          <ul class="benefits__list benefits__list_type_reviews">
+            <li class="benefits__item">
+              <a class="benefits__list-link" href="#" target="_blank"
+                >Сегодня была в вашей клинике, мне провели процедуру по снятию
+                зубных отложений</a
+              >
+            </li>
+            <li class="benefits__item">
+              <a class="benefits__list-link" href="#" target="_blank"
+                >В субботу была на чистке зубов (камни, налет)</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="benefits__box">
+          <h3 class="benefits__title benefits__title_type_company">
+            Наши преимущества
+          </h3>
+          <ul class="benefits__list benefits__list_type_company">
+            <li class="benefits__item benefits__item_type_company">
+              <img
+                class="benefits__icon"
+                src="./images/siren.png"
+                alt="иконка"
+              />
+              <p class="benefits__company-text">
+                Гаранти<br>рованное получение помощи при острой боли в день
+                обращения
+              </p>
+            </li>
+            <li class="benefits__item benefits__item_type_company">
+              <img
+                class="benefits__icon"
+                src="./images/guarantee.png"
+                alt="иконка"
+              />
+              <p class="benefits__company-text">
+                Гарантия на все виды стомато<br>логических услуг
+              </p>
+            </li>
+            <li class="benefits__item benefits__item_type_company">
+              <img
+                class="benefits__icon"
+                src="./images/equality.png"
+                alt="иконка"
+              />
+              <p class="benefits__company-text">Обслуживание по ДМС</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

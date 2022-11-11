@@ -1,0 +1,9 @@
+.special__container {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 900px) {
+  .special__container {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,13 @@
+.special__contact-container{
+    max-width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    outline: 1px solid #0051D4;
+}
+@media screen and (max-width: 900px) {
+    .special__contact-container{
+padding-bottom: 20px;    }
+  }

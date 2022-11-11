@@ -1,0 +1,5 @@
+.benefits__item_type_company{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

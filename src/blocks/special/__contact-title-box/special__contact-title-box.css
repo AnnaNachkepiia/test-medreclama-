@@ -1,0 +1,8 @@
+.special__contact-title-box{
+width: 100%;
+height: 36px;
+border-radius: 5px 5px 0 0;
+background-color: #0051D4;
+display: flex;
+align-items: center;
+}

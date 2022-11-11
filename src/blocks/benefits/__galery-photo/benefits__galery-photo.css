@@ -1,0 +1,6 @@
+.benefits__galery-photo{
+    width: 106px;
+    height: 123px;
+    object-fit: cover;
+    border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+.benefits__list{
+    list-style-type: none;
+    padding: 0;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 0;
+}
+@media screen and (max-width: 580px) {
+    .benefits__list{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 100;
+  src: url(./Commissioner-Thin.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 200;
+  src: url(./Commissioner-ExtraLight.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 300;
+  src: url(./Commissioner-Light.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 400;
+  src: url(./Commissioner-Regular.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 600;
+  src: url(./Commissioner-SemiBold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 700;
+  src: url(./Commissioner-Bold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 800;
+  src: url(./Commissioner-ExtraBold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Commissioner";
+  font-weight: 900;
+  src: url(./Commissioner-Black.ttf) format("ttf");
+}

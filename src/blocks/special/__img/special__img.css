@@ -1,0 +1,8 @@
+.special__img {
+width: 236px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-sizing: border-box;
+  object-position: center;
+}

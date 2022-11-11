@@ -1,0 +1,10 @@
+.special__description-bold{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1058px){
+    .special__description-bold{
+        font-size: 20px;
+    }
+}

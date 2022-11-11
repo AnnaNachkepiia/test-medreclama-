@@ -1,0 +1,12 @@
+.special__link_type_rectangle{
+    background-color: #D90800;
+    margin-right: 16px;
+    border-radius: 5px;
+    height: 80px;
+}
+@media screen and (max-width: 900px) {
+    .special__link_type_rectangle{
+        margin-right: 0;
+    }
+}
+  

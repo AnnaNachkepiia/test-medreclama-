@@ -1,0 +1,14 @@
+.benefits__galery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+@media screen and (max-width: 580px) {
+    .benefits__galery{
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+}
+}

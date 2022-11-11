@@ -1,0 +1,20 @@
+.special__input{
+    width: 100%;
+    height: 38px;
+    outline: 1px solid #0051D4;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 14px;
+    padding: 10px 0 0 15px;
+    /* padding-left: 15px; */
+    box-sizing: border-box;
+    font-size: 15px;
+
+}
+.special__input:focus {
+    outline: 1px solid #4ad45d;
+}
+.special__input:focus + .special__input-label,
+.special__input:valid + .special__input-label{
+    transform: translateY(-150%) scale(0.8);
+}

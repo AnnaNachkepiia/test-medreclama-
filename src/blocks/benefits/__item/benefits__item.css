@@ -1,0 +1,7 @@
+.benefits__item{
+    margin-bottom: 10px
+}
+
+.benefits__item:last-child{
+    margin: 0;
+}

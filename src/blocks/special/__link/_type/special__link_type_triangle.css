@@ -1,0 +1,10 @@
+.special__link_type_triangle{
+fill: #D90800;
+height: 90px;
+}
+
+@media screen and (max-width: 900px) {
+    .special__link_type_triangle{
+display: none;    }
+  }
+  

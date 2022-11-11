@@ -1,0 +1,14 @@
+.special {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 244px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 900px) {
+  .special {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

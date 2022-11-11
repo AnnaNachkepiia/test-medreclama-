@@ -1,0 +1,26 @@
+.benefits__galery-button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  box-shadow: none;
+  background-color: #edeff2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.benefits__galery-button:hover {
+  opacity: 0.5;
+}
+@media screen and (max-width: 850px) {
+    .benefits__galery-button {
+        width: 30px;
+        height: 30px;   
+     }
+}
+@media screen and (max-width: 580px) {
+    .benefits__galery-button {
+        margin-bottom: 7px;
+}
+}

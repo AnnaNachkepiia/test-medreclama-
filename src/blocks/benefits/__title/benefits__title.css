@@ -1,0 +1,12 @@
+.benefits__title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 580px) {
+    .benefits__title{
+        font-size: 19px;
+    }
+}

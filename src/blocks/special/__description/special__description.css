@@ -1,0 +1,13 @@
+.special__description{
+/* max-width: 483px; */
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 0 20px;
+}
+@media screen and (max-width: 900px) {
+    .special__description{
+        padding: 0 0 0 20px;
+    }
+}

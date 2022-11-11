@@ -1,0 +1,12 @@
+.benefits__list-link{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+
+}
+/* .benefits__list-link:last-child{
+    margin: 0;
+} */
+.benefits__list-link:hover{
+    opacity: 0.5;
+}
